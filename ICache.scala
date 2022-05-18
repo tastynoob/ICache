@@ -7,9 +7,7 @@ import chisel3.util._
 /**
  * tips:
  * ICache使用流水线设计
- * 当同时发生了Cache unvld RITTER2.Cache miss时，需要暂停流水线，先去处理Cachemiss
- * 当只发生了Cache unvld，需要暂停流水线
- * 当只发生了Cache miss时，需要暂停流水线
+ * 当发生了Cache miss时，需要暂停流水线
  */
 
 /**
